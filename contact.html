@@ -10,6 +10,9 @@
       <script src="script.js"></script>
     </head>
     <body>
+
+      <!-- nav -->
+
       <nav>
         <a href="index.html">
           <img src="images/logo.png" alt="logo" class="logo">
@@ -18,16 +21,52 @@
           <span></span>
           <span></span>
           <span></span>
+          <span></span>
         </div>
         <ul id="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About us</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <section>
+      
+      <!-- body -->
 
-      </section>
+      <section class="form-section">
+      <form class="two-column-form">
+        <div class="form-left">
+          <label for="topic">Choose a topic:</label>
+          <select id="topic" name="topic" required>
+            <option value="">--Select a topic--</option>
+            <option value="feedback">Feedback</option>
+            <option value="question">Question</option>
+            <option value="other">Other</option>
+          </select>
+  
+          <label for="message">Enter your message:</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+  
+        <div class="form-right">
+          <label for="name">First Name:</label>
+          <input type="text" id="name" name="name" required>
+  
+          <label for="surname">Surname:</label>
+          <input type="text" id="surname" name="surname" required>
+  
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+  
+        <div class="form-footer">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
+      <!-- footer -->
+
       <footer>
         <div class="icons">
           <i class="fa-brands fa-square-facebook"></i>
