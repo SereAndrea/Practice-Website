@@ -294,12 +294,8 @@ footer {
   width: 20%;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 480px) {
 
-  .block-about {
-    justify-content: center;
-  }
-  
   .you {
     font-size: 7rem;
   }
@@ -311,13 +307,13 @@ footer {
   }
 
   .h3 {
-    max-width: 480px;
-    font-size: 6rem;
+    max-width: 400px;
+    font-size: 5rem;
   }
 
   .second-block {
     /* flex-direction: column; */
-    max-width: 580px;
+    max-width: 400px;
   }
 
 }
