@@ -254,7 +254,7 @@ footer {
 
 .h3 {
   margin: 0 auto;
-  padding-left: 45px;
+  /* padding-left: 45px; */
   width: 1000px;
   color: #999;
   font-size: 165px;
