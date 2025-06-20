@@ -314,7 +314,7 @@ footer {
   .second-block {
     /* flex-direction: column; */
     max-width: 400px;
-    overflow: scroll;
+    /* overflow: scroll; */
     margin: 0;
   }
 
